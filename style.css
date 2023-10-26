@@ -1,0 +1,46 @@
+.button {
+    padding: 20px;
+    margin: 0 3px;
+    border: 2px solid black;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 55px;
+
+}
+
+.button:hover {
+    color: black;
+    font-weight: bold;
+    background-color: rgb(199, 198, 198);
+}
+
+.row {
+    margin: 7px 0;
+}
+
+.row input {
+    margin: 0;
+    padding: 8px 2px;
+    border: 2px solid black;
+    border-radius: 7px;
+    font-size: 19px;
+    width: 247px;
+
+}
+
+.container {
+    background-color: black;
+    border-radius: 8px;
+    padding-top: 20px;
+    width: 280px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Utility Classes */
+.text-center {
+    text-align: center;
+
+}
